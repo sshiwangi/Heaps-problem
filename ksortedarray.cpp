@@ -2,7 +2,6 @@
 #include<vector>
 #include<queue>
 using namespace std;
-
 vector<int> sortksorted(int arr[], int n, int k){
     priority_queue <int,vector<int>, greater<int>> minh;
     vector<int> ans;
